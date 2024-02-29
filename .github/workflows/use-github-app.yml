@@ -23,6 +23,6 @@ jobs:
         repository: rob-demo/example-demo
 
     - run: | 
-        git clone "https://x:${{ steps.get_workflow_token.outputs.token }}@github.com/kusal-madura-yapa/example-demo.git"
+        git clone "https://x:${{ steps.get_workflow_token.outputs.token }}@github.com/kusal-madura-yapa/demo-actions.git"
      
   
